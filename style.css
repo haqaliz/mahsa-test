@@ -1,0 +1,33 @@
+/* add class selector using . */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ffe45f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: crosshair;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar li:hover {
+    background-color: #e76430;
+    color: white;
+}
+
+.navbar li:active {
+    background-color: #b0e730;
+    color: rgb(0, 0, 0);
+}
